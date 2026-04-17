@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart Visualizer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Chart Visualizer</h1>
+            <button id="theme-toggle"> Toggle Mode</button>
+        </header>
+
+        <section class="balance-card">
+            <h2>Total Saldo</h2>
+            <p id="total-balance">Rp 0</p>
+        </section>
+
+        <div class="main-grid">
+            <section class="card">
+                <h3>Tambah Transaksi</h3>
+                <form id="expense-form">
+                    <input type="text" id="item-name" placeholder="Nama Item " required>
+                    <input type="number" id="amount" placeholder="Jumlah " required>
+                    <select id="category" required>
+                        <option value="Food">Makanan</option>
+                        <option value="Transport">Transport</option>
+                        <option value="Fun">Hiburan</option>
+                    </select>
+                    <button type="submit">Tambah</button>
+                </form>
+            </section>
+
+            <section class="card">
+                <h3>Distribusi Pengeluaran</h3>
+                <canvas id="expenseChart"></canvas>
+            </section>
+        </div>
+
+        <section class="card list-section">
+            <div class="list-header">
+                <h3>Riwayat Transaksi</h3>
+                <select id="sort-filter">
+                    <option value="newest">Terbaru</option>
+                    <option value="amount-high">Harga Tertinggi</option>
+                    <option value="category">Kategori</option>
+                </select>
+            </div>
+            <ul id="transaction-list">
+            </ul>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
