@@ -1,5 +1,7 @@
 # CodingCamp-30Mar26-naufal
 # Chart Visualizer 
+<img width="1366" height="610" alt="gambar" src="https://github.com/user-attachments/assets/6bc1c009-3e10-4ce8-963c-8550f84cafa2" />
+
 Tugas Akhir - Coding Camp 5-Day Software Engineering Course
 
 Aplikasi pencatat pengeluaran harian berbasis web yang ringan, responsif, dan mudah digunakan. Dibuat dengan menggunakan Vanilla JavaScript untuk memenuhi persyaratan teknis tugas Coding Camp.
