@@ -24,7 +24,7 @@ Saya telah mengimplementasikan 3 fitur tambahan:
 * **Local Storage API** untuk manajemen database client-side.
 
 ## Bukti Penggunaan Kiro
-![Screenshot Kiro](./docs/KiroChat.png)
+!(path/ke/KiroChat.png)
 
 ##  Struktur Folder
 ```text
