@@ -23,6 +23,9 @@ Saya telah mengimplementasikan 3 fitur tambahan:
 * **Chart.js** via CDN untuk visualisasi grafik.
 * **Local Storage API** untuk manajemen database client-side.
 
+## Bukti Penggunaan Kiro
+![Screenshot Kiro](./dowload/KiroChat.png)
+
 ##  Struktur Folder
 ```text
 .
